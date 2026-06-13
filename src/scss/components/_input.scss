@@ -1,0 +1,19 @@
+.input-field {
+  &__input {
+    padding: 6px 0 6px 8px;
+    height: 28px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    caret-color: transparent;
+
+    @media screen and (max-width: 768px) {
+      width: 52px;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}
