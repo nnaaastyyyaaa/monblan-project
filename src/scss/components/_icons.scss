@@ -1,0 +1,54 @@
+.icon-top {
+  position: absolute;
+  top: -34px;
+  left: -22px;
+  z-index: 0;
+}
+
+.icon-bottom {
+  position: absolute;
+  bottom: 42px;
+  right: -104px;
+  z-index: 0;
+}
+
+.icon-logo {
+  margin: 6px 90px 28px 355px;
+
+  @media screen and (max-width: 1279px) {
+    margin: 6px 60px 28px 170px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 6px 10px 28px 40px;
+  }
+
+  @media screen and (max-width: 450px) {
+    margin: 6px 10px 28px 10px;
+    width: 70px;
+    height: 70px;
+  }
+}
+
+.icon-calendar {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 1px;
+}
+
+.icon-order,
+.icon-grid {
+  fill: #c8c8c8;
+  cursor: pointer;
+
+  &.active {
+    fill: #3d8eda;
+  }
+}
+
+.icon-order {
+  margin-left: 20px;
+}

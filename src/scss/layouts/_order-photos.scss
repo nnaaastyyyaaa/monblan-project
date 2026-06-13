@@ -1,0 +1,96 @@
+.order-photos {
+  margin-top: 23px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @media screen and (max-width: 400px) {
+    margin-top: 3opx;
+  }
+
+  &__image {
+    width: 86px;
+    height: 86px;
+
+    @media screen and (max-width: 768px) {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+  }
+
+  &__today {
+    display: flex;
+    gap: 30px;
+
+    @media screen and (max-width: 768px) {
+      gap: 10px;
+    }
+  }
+
+  &__upload-date {
+    margin-right: 80px;
+
+    @media screen and (max-width: 768px) {
+      margin-right: 5px;
+    }
+  }
+}
+
+.order-today,
+.order-other-day {
+  &__container {
+    margin-top: 16px;
+  }
+
+  &__text {
+    margin-bottom: 8px;
+  }
+
+  &__statistic {
+    display: flex;
+    gap: 18px;
+
+    @media screen and (max-width: 768px) {
+      gap: 4px;
+    }
+  }
+
+  &__like,
+  &__comment {
+    display: flex;
+    gap: 6px;
+    @media screen and (max-width: 768px) {
+      gap: 3px;
+    }
+  }
+
+  &__like-number,
+  &__comment-number {
+    font-size: 14px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 10px;
+    }
+  }
+}
+
+.order-upload-date {
+  margin-top: 16px;
+
+  &__label {
+    margin-bottom: 8px;
+  }
+
+  &__date {
+    font-size: 14px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 10px;
+    }
+  }
+}

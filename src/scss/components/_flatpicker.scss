@@ -1,0 +1,60 @@
+.flatpickr-input {
+  cursor: pointer;
+  caret-color: transparent;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  width: 162px;
+  height: 28px;
+
+  @media screen and (max-width: 768px) {
+    width: 108px;
+  }
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.flatpickr-current-month .numInputWrapper {
+  pointer-events: none;
+
+  & .cur-year {
+    border: none;
+    background: transparent;
+    font-size: inherit;
+    font-weight: 700;
+    padding-left: 4px;
+  }
+}
+
+.flatpickr-weekday {
+  font-weight: 700 !important;
+  font-size: 13px !important;
+  color: inherit !important;
+}
+
+.flatpickr-day {
+  &:hover {
+    border-radius: 2px;
+  }
+
+  &.selected {
+    border-radius: 2px;
+    background: #3d8eda;
+  }
+
+  &.today {
+    border: none;
+  }
+
+  &:nth-child(7n + 1) {
+    background: #f4f4f4;
+    border-radius: 2px;
+  }
+}
+
+.dayContainer {
+  row-gap: 2px;
+}

@@ -1,0 +1,52 @@
+.custom-calendar-input {
+  &__input-date {
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #dedede;
+    width: 28px;
+    height: 28px;
+    background-color: #ebebeb;
+    position: relative;
+    width: 28px;
+    height: 28px;
+  }
+
+  &__close-calendar {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #dedede;
+    width: 28px;
+    height: 28px;
+    background-color: #ebebeb;
+    z-index: 1;
+    cursor: pointer;
+  }
+
+  &__input-field {
+    width: 106px;
+
+    @media screen and (max-width: 768px) {
+      width: 52px;
+    }
+  }
+}
+
+.input-field {
+  &__input {
+    padding: 6px 0 6px 8px;
+    height: 28px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    caret-color: transparent;
+
+    @media screen and (max-width: 768px) {
+      width: 52px;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+  }
+}

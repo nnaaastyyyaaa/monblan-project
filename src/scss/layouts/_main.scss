@@ -1,0 +1,29 @@
+.app-main {
+  position: relative;
+  height: 100vh;
+  overflow-x: hidden;
+  background: #fafafa;
+}
+
+.main-content {
+  position: relative;
+  margin: 24px 302px 20px 302px;
+  z-index: 1;
+
+  @media screen and (max-width: 1279px) {
+    margin: 24px 100px 20px 100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin: 24px 30px 20px 30px;
+  }
+
+  @media screen and (max-width: 400px) {
+    margin: 24px 10px 20px 10px;
+  }
+}
+
+.content-position-btns {
+  display: flex;
+  justify-content: flex-end;
+}

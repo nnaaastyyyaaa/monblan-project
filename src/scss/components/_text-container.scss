@@ -1,0 +1,68 @@
+.text-container {
+  margin-right: 5px;
+  &__title {
+    font-family: var(--second-family);
+    font-size: 24px;
+    text-transform: lowercase;
+    letter-spacing: -0.01em;
+
+    @media screen and (max-width: 768px) {
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+
+  &__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    border: 1px solid #3d8eda;
+    border-radius: 2px;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: -0.03em;
+    color: #3d8eda;
+
+    @media screen and (max-width: 768px) {
+      padding: 3px 6px;
+    }
+  }
+
+  &__block {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    height: fit-content;
+    margin-top: 16px;
+    margin-bottom: 6px;
+
+    @media screen and (max-width: 768px) {
+      gap: 8px;
+    }
+
+    &:first-child {
+      margin-top: 33px;
+    }
+  }
+
+  &__account-info {
+    font-weight: 400;
+    &--accent {
+      font-weight: 700;
+      font-size: 14px;
+
+      @media screen and (max-width: 768px) {
+        font-size: 10px;
+      }
+    }
+  }
+
+  &__filter-label {
+    font-weight: 400;
+  }
+
+  &__custom-calendar-input {
+    display: flex;
+  }
+}
