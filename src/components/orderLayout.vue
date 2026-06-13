@@ -8,13 +8,13 @@
           <div class="order-today__statistic">
             <div class="order-today__like">
               <svg class="icon-like" width="18" height="18">
-                <use href="../assets/icons.svg#icon-like"></use>
+                <use xlink:href="/icons.svg#icon-like"></use>
               </svg>
               <p class="order-today__like-number">128</p>
             </div>
             <div class="order-today__comment">
               <svg class="icon-comment" width="18" height="18">
-                <use href="../assets/icons.svg#icon-comment"></use>
+                <use xlink:href="/icons.svg#icon-comment"></use>
               </svg>
               <p class="order-today__comment-number">31</p>
             </div>
@@ -27,13 +27,13 @@
           <div class="order-other-day__statistic">
             <div class="order-other-day__like">
               <svg class="icon-like" width="18" height="18">
-                <use href="../assets/icons.svg#icon-like"></use>
+                <use xlink:href="/icons.svg#icon-like"></use>
               </svg>
               <p class="order-other-day__like-number">67</p>
             </div>
             <div class="order-other-day__comment">
               <svg class="icon-comment" width="18" height="18">
-                <use href="../assets/icons.svg#icon-comment"></use>
+                <use xlink:href="/icons.svg#icon-comment"></use>
               </svg>
               <p class="order-other-day__comment-number">22</p>
             </div>

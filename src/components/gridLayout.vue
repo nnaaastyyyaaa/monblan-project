@@ -7,13 +7,13 @@
           <p class="today__label">Today</p>
           <div class="today__like">
             <svg class="icon-like" width="18" height="18">
-              <use href="../assets/icons.svg#icon-like"></use>
+              <use xlink:href="/icons.svg#icon-like"></use>
             </svg>
             <p class="today__like-number">128</p>
           </div>
           <div class="today__comment">
             <svg class="icon-comment" width="18" height="18">
-              <use href="../assets/icons.svg#icon-comment"></use>
+              <use xlink:href="/icons.svg#icon-comment"></use>
             </svg>
             <p class="today__comment-number">31</p>
           </div>
@@ -22,13 +22,13 @@
           <p class="other-date__label">9-08-2016</p>
           <div class="other-date__like">
             <svg class="icon-like" width="18" height="18">
-              <use href="../assets/icons.svg#icon-like"></use>
+              <use xlink:href="/icons.svg#icon-like"></use>
             </svg>
             <p>67</p>
           </div>
           <div class="other-date__comment">
             <svg class="icon-comment" width="18" height="18">
-              <use href="../assets/icons.svg#icon-comment"></use>
+              <use xlink:href="/icons.svg#icon-comment"></use>
             </svg>
             <p>22</p>
           </div>
