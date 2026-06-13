@@ -1,11 +1,11 @@
 <template>
   <div class="app-main">
-    <svg class="icon-top" width="625" height="482">
-      <use xlink:href="/icons.svg#icon-top">></use>
-    </svg>
-    <svg class="icon-bottom" width="314" height="368">
-      <use xlink:href="/icons.svg#icon-bottom"></use>
-    </svg>
+    <div class="icon-top">
+      <topIcon />
+    </div>
+    <div class="icon-bottom">
+      <bottomIcon />
+    </div>
     <div class="header">
       <svg class="icon-logo" width="138" height="138">
         <use xlink:href="/icons.svg#icon-logo"></use>
@@ -123,8 +123,12 @@ import FlatPickr from "vue-flatpickr-component";
 import "flatpickr/dist/flatpickr.css";
 import flatpickr from "flatpickr";
 import iconsUrl from "/icons.svg";
+
 import gridLayout from "./gridLayout.vue";
 import orderLayout from "./orderLayout.vue";
+
+import topIcon from "./topIcon.vue";
+import bottomIcon from "./bottomIcon.vue";
 
 const dateFrom = ref(null);
 const dateTo = ref(null);
