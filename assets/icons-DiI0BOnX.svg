@@ -1,17 +1,18 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-top" viewBox="0 0 51 32">
 <linearGradient id="top-gradient" x1="43.4" y1="-6.75" x2="4.4" y2="32" gradientUnits="userSpaceOnUse">
   <stop stop-color="#40AF79"/>
   <stop offset="1" stop-color="#124757"/>
 </linearGradient>
+<path fill="url(#top-gradient)" d="M11.498 28.221c-4.599 5.081-9.581 3.913-11.498 2.693l-4.744-6.151 0.402-24.643 27.457-6.915 27.538 6.513c-3.827 1.222-4.744 2.131-5.266 4.462-0.885 3.949-3.149 8.362-4.261 9.447-4.342 5.91-11.899 3.699-16.442 3.618s-7.598 1.206-9.286 4.543c-1.287 2.542-3.015 5.4-3.899 6.432z"></path>
+</symbol>
+
+<symbol id="icon-bottom" viewBox="0 0 18 32">
 <linearGradient id="bottom-gradient" x1="18" y1="0" x2="0" y2="32" gradientUnits="userSpaceOnUse">
   <stop stop-color="#40af79"/>
   <stop offset="1" stop-color="#124757"/>
 </linearGradient>
-<symbol id="icon-top" viewBox="0 0 51 32">
-<path fill="url(#top-gradient)" d="M11.498 28.221c-4.599 5.081-9.581 3.913-11.498 2.693l-4.744-6.151 0.402-24.643 27.457-6.915 27.538 6.513c-3.827 1.222-4.744 2.131-5.266 4.462-0.885 3.949-3.149 8.362-4.261 9.447-4.342 5.91-11.899 3.699-16.442 3.618s-7.598 1.206-9.286 4.543c-1.287 2.542-3.015 5.4-3.899 6.432z"></path>
-</symbol>
-<symbol id="icon-bottom" viewBox="0 0 18 32">
 <path fill='url(#bottom-gradient)' d="M10.732 3.37c1.188 5.636 2.213 6.706 2.971 6.833 4.103 0.689 5.772-5.772 10.525-1.655s4.202 26.44-6.069 22.154-10.695-9.464-11.544-11.501c-0.679-1.63-2.858-3.537-3.862-4.286-4.651-4.108-1.401-9.917 0.806-12.308 1.896-2.094 5.984-4.872 7.172 0.764z"></path>
 </symbol>
 <symbol id="icon-logo" viewBox="0 0 32 32">
