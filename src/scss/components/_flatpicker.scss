@@ -17,6 +17,10 @@
   }
 }
 
+.flatpickr-current-month {
+  font-size: 14px !important;
+}
+
 .flatpickr-current-month .numInputWrapper {
   pointer-events: none;
 
@@ -29,10 +33,50 @@
   }
 }
 
+.flatpickr-month {
+  height: 28px !important;
+}
+
+.flatpickr-next-month,
+.flatpickr-prev-month {
+  padding: 7px 10px !important;
+}
+
 .flatpickr-weekday {
   font-weight: 700 !important;
   font-size: 13px !important;
   color: inherit !important;
+}
+
+.flatpickr-weekdays {
+  justify-content: center;
+  align-items: center;
+}
+
+.flatpickr-weekdaycontainer {
+  flex: none !important;
+  gap: 11px !important;
+}
+
+.flatpickr-days {
+  width: 201px !important;
+  padding: 0 9px 9px 9px !important;
+}
+
+.flatpickr-day {
+  display: flex !important;
+  align-items: center !important;
+  flex-basis: calc(100% / 7) !important;
+  width: 23px !important;
+  height: 23px !important;
+  line-height: 1 !important;
+  max-width: none !important;
+  min-width: none !important;
+}
+
+.flatpickr-calendar {
+  width: 201px !important;
+  height: 215px !important;
 }
 
 .flatpickr-day {
@@ -56,5 +100,8 @@
 }
 
 .dayContainer {
+  min-width: 0 !important;
+  max-width: none !important;
+  width: auto !important;
   row-gap: 2px;
 }
